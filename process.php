@@ -1,8 +1,8 @@
 <?php
-$db_host = 'database-1.cgmcmr4glqgi.eu-north-1.rds.amazonaws.com';
-$db_username = 'admin';
-$db_password = 'admin123';
-$db_name = 'database-1';
+$db_host = 'database.cgmcmr4glqgi.eu-north-1.rds.amazonaws.com';
+$db_username = 'root';
+$db_password = 'root1234';
+$db_name = 'database';
 
 $conn = new mysqli($db_host, $db_username, $db_password, $db_name);
 
